@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/form.css"/>
+	</head>
+	<body>
+		<form id="form" action="server/reg.php" onSubmit="return checkForm()">
+			<h1>注册表单</h1>
+			<div>
+				<label>姓名:<input id="name" name="name" type="text" /></label>
+			</div>
+			<div>
+				<label>年龄:<input id="age" name="age" type="text" /></label>
+			</div>
+			<div>
+				<label>性别</label>
+				<label>男<input name="gender" value="0" type="radio" checked="checked"/></label>
+				<label>女<input name="gender" value="1" type="radio" /></label>
+			</div>
+			<div>
+				<label>电话:<input id="mobile" name="mobile" type="text" /></label>
+			</div>
+			<div>
+				<label>住址:<textarea id="textarea" name="address" ></textarea></label>
+			</div>
+			<div>
+				<label>学历</label>
+				<select name="edu" id="mySel">
+					<option value="0">请选择</option>
+					<option value="1">本科</option>
+					<option value="2">大专</option>
+					<option value="3">研究生</option>
+					<option value="4">其他</option>
+				</select>
+			</div>
+			<div>
+				<label>爱好</label>
+				<label><input value="0" name="hobbies" type="checkbox" />抽烟</label>
+				<label><input value="1" name="hobbies" type="checkbox" />喝酒</label>
+				<label><input value="2" name="hobbies" type="checkbox" />烫头</label>
+			</div>
+			<!--<button id="okBtn">确定并提交</button>-->
+			<input type="submit" id="okBtn" value="确定并提交" />
+			
+		</form>
+		
+		
+		
+		
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/form.js"></script>
+	</body>
+</html>
+
+

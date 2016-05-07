@@ -1,0 +1,32 @@
+#form {
+	width: 300px;
+	height: 420px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+#form > div {
+	margin: 20px;
+}
+
+#form > h1 {
+	width: 140px;
+	margin: 0 auto;
+}
+
+#textarea {
+	width: 200px;
+	height: 30px;
+	position: relative;
+    top: 11px;
+    resize: none;
+}
+
+#okBtn {
+	display: block;
+	width: 80px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+}
